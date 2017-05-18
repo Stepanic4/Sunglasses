@@ -256,6 +256,8 @@ nav a:hover {
 /****************************************************  SPECIAL-OFFERS  ********************************************/
 
 .special-offers {
+	display: block;
+	height: 910px;
 	position: relative;
 	top: -100px;
 }
@@ -315,6 +317,57 @@ nav a:hover {
 .offers img {
 	max-width: 100%;
 }
+
+
+/************************************************************    SERVICES   ***************************************************/
+
+.services {
+	display: inline-block;
+
+}
+
+.services ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.services ul li {
+	display: block;
+	width: 23%;
+	float: left;
+	margin-right: 2%;
+	color:  #1571bc;
+	text-align: center;
+}
+
+.services ul li:last-child {
+	margin-right: 0;
+}
+
+.services ul li:before {
+	content: "";
+	display: block;
+	width: 300px;
+	height: 160px;
+	background: url(../source/images/glasses.png);
+	// margin: 0 auto 15px;
+}
+
+.services ul li:nth-child(2):before {
+	background-position: -300px 0;
+}
+
+.services ul li:nth-child(3):before {
+	background-position: -600px 0;
+}
+
+.services ul li:nth-child(4):before {
+	background-position: -900px 0;
+}
+
+
+
 
 /******************************************************  FOOTER  ***********************************************/
 
